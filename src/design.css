@@ -1,0 +1,66 @@
+.container {
+    margin: 150px;
+    padding: 150px;
+
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 12vh);
+    justify-content: center;
+
+    
+    gap: 0.5vh;
+
+    
+
+}
+
+
+
+.input_field {
+    grid-column-start: span 3;
+    padding: 15px;
+}
+
+.btn_nbr {
+    padding: 15px;
+}
+
+
+.C_class {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(214, 135, 135);
+}
+
+button {
+    background: white;
+    border: thin solid gray;
+}
+
+.operator_btn {
+    background-color: rgb(219, 219, 128);
+}
+
+.equal_btn {
+    background-color: rgb(141, 141, 218);
+}
+
+
+
+
+
+
+.dark_color {
+    background-color: gray;
+}
+
+.light_mode {
+    background-color: yellow;
+}
+
+
+
+.color_mode {
+    gap: 105px;
+}
